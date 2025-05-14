@@ -1,0 +1,97 @@
+{
+  "title": "Щоденний звіт про екологічну ситуацію в місті",
+  "generated_at": "2025-04-15T14:31:57.159268",
+  "sensors_count": 6,
+  "sensors": [
+    {
+      "sensor_id": "b4102373",
+      "location": {
+        "lat": 50.4501,
+        "lon": 30.5234
+      },
+      "sensor_type": "Якість повітря PM2.5",
+      "readings_count": 3,
+      "latest_reading": {
+        "value": 21.3,
+        "timestamp": "2025-04-15T14:31:57.159268",
+        "formatted_value": "21.30 мкг/м³"
+      },
+      "average_reading": 18.400000000000002
+    },
+    {
+      "sensor_id": "ae866ed4",
+      "location": {
+        "lat": 50.4601,
+        "lon": 30.5334
+      },
+      "sensor_type": "Якість повітря PM10",
+      "readings_count": 2,
+      "latest_reading": {
+        "value": 52.1,
+        "timestamp": "2025-04-15T14:31:57.159268",
+        "formatted_value": "52.10 мкг/м³"
+      },
+      "average_reading": 48.85
+    },
+    {
+      "sensor_id": "28479bcf",
+      "location": {
+        "lat": 50.4501,
+        "lon": 30.5234
+      },
+      "sensor_type": "Температура",
+      "readings_count": 3,
+      "latest_reading": {
+        "value": 26.0,
+        "timestamp": "2025-04-15T14:31:57.159268",
+        "formatted_value": "26.00 °C"
+      },
+      "average_reading": 25.233333333333334
+    },
+    {
+      "sensor_id": "3c6a88b6",
+      "location": {
+        "lat": 50.4481,
+        "lon": 30.5203
+      },
+      "sensor_type": "Вологість",
+      "readings_count": 2,
+      "latest_reading": {
+        "value": 67.8,
+        "timestamp": "2025-04-15T14:31:57.159268",
+        "formatted_value": "67.80 %"
+      },
+      "average_reading": 66.55
+    },
+    {
+      "sensor_id": "81126bed",
+      "location": {
+        "lat": 50.4401,
+        "lon": 30.5184
+      },
+      "sensor_type": "Рівень шуму",
+      "readings_count": 3,
+      "latest_reading": {
+        "value": 78.9,
+        "timestamp": "2025-04-15T14:31:57.159268",
+        "formatted_value": "78.90 дБ"
+      },
+      "average_reading": 78.93333333333332
+    },
+    {
+      "sensor_id": "a4cbfcbb",
+      "location": {
+        "lat": 50.4511,
+        "lon": 30.5244
+      },
+      "sensor_type": "Якість води pH",
+      "readings_count": 2,
+      "latest_reading": {
+        "value": 7.4,
+        "timestamp": "2025-04-15T14:31:57.159268",
+        "formatted_value": "7.40 pH"
+      },
+      "average_reading": 7.300000000000001
+    }
+  ]
+}
