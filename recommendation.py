@@ -1,6 +1,6 @@
 def get_recommendation(sensor_type: str, value: float) -> str:
     """
-    Повертає рекомендацію на основі значення показника.
+    Тута повертає рекомендацію на основі значення
     """
     if sensor_type == "Температура":
         if value < 0:
