@@ -4,8 +4,10 @@ from sensor_type import SensorType
 from sensor import Sensor
 from data_collector import DataCollector
 from recommendation import get_recommendation
+from decorators import log_action
 
 
+@log_action
 def save_to_json(entry):
     """
     Зберігає отримані дані у файл JSON.
