@@ -15,3 +15,16 @@ def validate_value(value, sensor_type):
         if 0 <= value <= 100:
             return value
     raise ValueError(f"Недопустиме значення для {sensor_type}: {value}")
+
+def verify_reports(collector_data, saved_data):
+    """
+    Тут перевіряється, чи дані в звітах збігаються з зібраними даними.
+    """
+    for collected, saved in zip(collector_data, saved_data):
+        if collected['type'] != saved['type']:
+            return False
+        if abs(collected['value'] - saved['value']) > 0.01:
+            return False
+        if collected['location'] != saved['location']:
+            return False
+    return True
