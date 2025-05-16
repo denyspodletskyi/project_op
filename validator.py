@@ -8,9 +8,6 @@ def validate_value(value, sensor_type):
     elif sensor_type == "CO2":
         if 0 <= value <= 5000:
             return value
-    elif sensor_type == "Шум":
-        if 0 <= value <= 150:
-            return value
     elif sensor_type == "PM2.5":
         if 0 <= value <= 500:
             return value
